@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+html
+{
+    box-sizing: border-box;
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+}
+*
+{
+    box-sizing: inherit;
+}
+body
+{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h1
+{
+    margin: 0;
+}
+.header 
+{
+    background-image: url(img/header/bg.png);
+    height: 1080px;
+    max-width: 1920px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.container 
+{
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.headerInfo 
+{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerInfoL
+{
+    /* height: 60px; */
+    width: 530px;
+    position: relative;
+    color: #34383d;
+}
+.headerInfoL a
+{
+    padding-left: 40px;
+    color: #34383d;
+}
+.headerInfoL a::before
+{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-image: url(img/header/headphone.svg);
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+.headerInfoR
+{
+    /* height: 60px; */
+    width: 460px;
+}
+.headerTitle {
+}
+.menu {
+}
+.menuItem {
+}
+.headerContent {
+}
+.headerContentTxt {
+}
