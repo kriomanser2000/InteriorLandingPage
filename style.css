@@ -156,7 +156,30 @@ h1
     opacity: 1;
     border-bottom: 3px solid #CDA861;
 }
-.headerContent {
+.headerContent 
+{
+    max-width: 660px;
 }
-.headerContentTxt {
+.headerContent h1
+{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 76px;
+    line-height: 93px;
+    color: #34383d;
+    margin-bottom: 30px;
+}
+h1 span
+{
+    color: #CDA861;
+    text-decoration: underline;
+}
+.headerContentTxt 
+{
+    color: #34383d;
+    opacity: 0.6;
+    font-size: 22px;
+    line-height: 26px;
+    max-width: 490px;
+    margin-bottom: 60px;
 }
