@@ -92,6 +92,8 @@ h1
 {
     /* height: 60px; */
     width: 460px;
+    display: flex;
+    justify-content: space-between;
 }
 .headerInfoR a
 {
@@ -182,4 +184,20 @@ h1 span
     line-height: 26px;
     max-width: 490px;
     margin-bottom: 60px;
+}
+.headerContent a
+{
+    width: 220px;
+    height: 60px;
+    border: 1px solid #CDA861;
+    padding: 16px 23px;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    display: inline-block;
+    background-color: #CDA861;
+    color: #34383d;
 }
